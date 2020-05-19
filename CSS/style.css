@@ -1,0 +1,28 @@
+/*
+External CSS
+*/
+body{
+  background-color:skyblue;
+<!-- for changing the color of any text included heading must see website "change text color css" and for changing paragraph text we use "color: color name"
+in body block -->
+}
+hr{
+  border-color: Orange;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  height: 0px;
+  width: 5%;     <!-- we can draw width in %, or px or auto-->
+}
+h1{
+  color: red;
+  text-align: right;
+}
+h3{
+  color: red;
+  text-align: left;
+}
+/*
+<!-- we can apply css in three ways 1. inline css 2. internal css 3. External css-->
+<!--Inline CSS has higher priority than internal CSS-->
+*/

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Detail of person</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h3>Detail of person</h3>
+  <p>contact no. xxxxxxxxxx</p>
+  <p>email address: ry1091997@gmail.com</p>
+  <p>address: A-35 Sarai pipal thala Adarsh Nagar New Delhi-33</p>
+  <hr>
+  <form action="mailto:ryadav1091997@gmail.com" method="post" enctype="text/plain">
+    <!--The method attribute tells the web browser how to send data to server.
+    Specifying a value of POST means  the browser will send the data to the web browser to be processed this is neccesary when addind data to Database or when submitting
+    sensitive informtion, such as passwords-->
+    <label>Your Name:</label>
+    <input type="text" name="Your Name" value=""><br>
+    <label>Your email:</label>
+    <input type="email" name="Your email" value=""><br>
+    <!--  <label for="">Password:</label>
+  <input type="password" name="Password" value=""><br>
+    <label>Date of birth</label>
+      <input type="date" name="" value=""><br>
+      <label for="">Upload your file</label>
+      <input type="file" name="" value=""><br>
+      <label for="">Choose your radio station</label>
+      <input type="radio" name="" value=""><br>
+      <label for="">range of pages</label>
+      <input type="range" name="" value=""><br>
+      <label for="">Terms and condition</label>
+      <input type="checkbox" name="" value=""><br>-->
+    <label for="">your Message:</label><br>
+    <textarea name="Your Message" rows="10" cols="30"></textarea><br>
+    <label for="">Ability:</label><br>
+    <input type="radio" name="Experience" value="1" checked>Awesome
+    <input type="radio" name="Experience" value="2">Average
+    <input type="radio" name="Experience" value="3">Poor<br>
+    <label for="">Gender:</label>
+    <input type="radio" name="gender" value="male">male
+    <input type="radio" name="gender" value="female">female
+    <input type="radio" name="gender" value="other">other <br>
+
+    <input type="submit" name="" value="submit">
+    <!--<input type="color">-->
+  </form>
+</body>
+
+</html>
